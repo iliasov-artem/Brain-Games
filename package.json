@@ -1,0 +1,29 @@
+{
+  "name": "brain-games-artem-il",
+  "version": "0.0.1",
+  "description": "collection of cli games",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iliasov-artem/project-lvl1-s388.git"
+  },
+  "author": "artem-iliasov",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-flow": "^7.0.0"
+  }
+}
