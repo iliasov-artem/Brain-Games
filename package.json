@@ -21,12 +21,16 @@
   "bugs": {
     "url": "https://github.com/iliasov-artem/project-lvl1-s388/issues"
   },
+  "keywords": [
+    "brain-games",
+    "hexlet"
+  ],
   "homepage": "https://github.com/iliasov-artem/project-lvl1-s388#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
     "@babel/node": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
-    "@babel/preset-flow": "^7.0.0"
+    "readline-sync": "^1.4.9"
   }
 }
