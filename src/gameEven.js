@@ -2,7 +2,7 @@ import readlineSync from 'readline-sync';
 
 const getRandomNum = (min, max) => Math.floor(min + Math.random() * (max + 1 - min));
 
-export const gameEven = () => {
+export default () => {
   console.log('Welcome to the Brain Games!\nAnswer "yes" if number even otherwise answer "no".\n');
   const playerName = readlineSync.question('May i have your name?\n', {
     defaultInput: 'anonim',
@@ -17,10 +17,9 @@ export const gameEven = () => {
     if (answer !== rightAnswer) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${playerName}`);
       return;
-    } else {
-      console.log('Correct!');
-      atempts -= 1;
-    }
+    } 
+    console.log('Correct!');
+    atempts -= 1;
   }
   console.log(`Congratulations, ${playerName}!`);
 };
