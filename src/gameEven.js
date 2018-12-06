@@ -17,7 +17,7 @@ export default () => {
     if (answer !== rightAnswer) {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${playerName}`);
       return;
-    } 
+    }
     console.log('Correct!');
     atempts -= 1;
   }
