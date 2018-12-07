@@ -3,3 +3,5 @@
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/iliasov-artem/project-lvl1-s388)
 
 [![asciicast](https://asciinema.org/a/jJY63dhjWHejH29CMIus5z6oW.svg)](https://asciinema.org/a/jJY63dhjWHejH29CMIus5z6oW)
+
+[![asciicast](https://asciinema.org/a/pEQcIrjvQUKuIe70OGVbreAgQ.svg)](https://asciinema.org/a/pEQcIrjvQUKuIe70OGVbreAgQ)
