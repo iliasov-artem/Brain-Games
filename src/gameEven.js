@@ -9,7 +9,7 @@ export default () => {
     defaultInput: 'anonim',
   });
   console.log(`Hello, ${playerName}!\n`);
-  for (let atempts = 0; atempts < 3; atempts += 1) {
+  for (let atempts = 3; atempts > 0; atempts -= 1) {
     const question = getRandomNum();
     const answer = readlineSync.question(`Question: ${question}\n`);
     const rightAnswer = isEven(question) ? 'yes' : 'no';
