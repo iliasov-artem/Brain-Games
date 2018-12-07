@@ -1,5 +1,6 @@
 import { cons, car, cdr } from 'hexlet-pairs';
-import { getRandomNum, playGame } from '../index';
+import { getRandomNum } from '../utils/utils';
+import playGame from '..';
 
 const game = 'What is the result of the expression?';
 
@@ -16,13 +17,9 @@ const operators = [
     sign: '*',
     method: (a, b) => a * b,
   },
-  {
-    sign: '/',
-    method: (a, b) => a / b,
-  },
 ];
 
-const getOperator = () => operators[getRandomNum(1, 4)];
+const getOperator = () => operators[getRandomNum(0, 2)];
 const getNumbers = () => cons(getRandomNum(), getRandomNum());
 
 const makeGame = () => {
@@ -30,11 +27,10 @@ const makeGame = () => {
   const numbers = getNumbers();
   const question = `${car(numbers)} ${sign} ${cdr(numbers)}`;
   const rightAnswer = method(car(numbers), cdr(numbers)).toString();
-  const gameState = {
+  return {
     question,
     rightAnswer,
   };
-  return gameState;
 };
 
-export default playGame(game, makeGame);
+export default () => playGame(game, makeGame);

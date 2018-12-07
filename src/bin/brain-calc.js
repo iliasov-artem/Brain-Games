@@ -2,4 +2,4 @@
 
 import playGame from '../games/gameCalc';
 
-playGame('calc');
+playGame();
