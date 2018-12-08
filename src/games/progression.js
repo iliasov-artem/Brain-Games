@@ -12,14 +12,14 @@ const makeProgression = (length, pace, firstNum) => {
 };
 
 const makeGame = () => {
+  const progressionLength = 10;
   const pace = getRandomNum(1, 10);
   const firstNum = getRandomNum(1, 50);
-  const progression = makeProgression(10, pace, firstNum);
+  const progression = makeProgression(progressionLength, pace, firstNum);
   const questionIndex = getRandomNum(0, progression.length - 1);
   const rightAnswer = progression[questionIndex].toString();
-  const questionArray = [...progression];
-  questionArray[questionIndex] = '..';
-  const question = questionArray.join(' ');
+  progression[questionIndex] = '..';
+  const question = progression.join(' ');
   return {
     question,
     rightAnswer,
