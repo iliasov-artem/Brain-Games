@@ -5,11 +5,13 @@ const description = 'Find the greatest common divisor of given numbers.';
 
 const findGcd = (a, b) => {
   const min = Math.min(a, b);
+  let gcd = 1;
   for (let i = min; i > 0; i -= 1) {
     if (!(a % i) && !(b % i)) {
-      return i;
+      gcd = i;
     }
   }
+  return gcd;
 };
 export const makeGame = () => {
   const num1 = getRandomNum();

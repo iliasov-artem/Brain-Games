@@ -1,6 +1,6 @@
 {
   "name": "brain-games-artem",
-  "version": "1.4.0",
+  "version": "1.4.2",
   "description": "console games",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
