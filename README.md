@@ -1,8 +1,9 @@
+
+## Консольное приложение, содержащее набор мини-игр.
+
 <a href="https://codeclimate.com/github/iliasov-artem/project-lvl1-s388/maintainability"><img src="https://api.codeclimate.com/v1/badges/14fe59c6961ffd5d3f9f/maintainability" /></a>
 
 [![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/iliasov-artem/project-lvl1-s388)
-
-## Консольное приложение, содержащее набор мини-игр.
 
 ## Навыки и технологии
 + настройка окружения (npm, babel, eslint)
