@@ -22,6 +22,7 @@ run: `brain-calc`
 
 ## Brain-gcd
 run: `brain-gcd`
+
 [![asciicast](https://asciinema.org/a/GbeMXwLrur6JBvyt8DxfglLhS.svg)](https://asciinema.org/a/GbeMXwLrur6JBvyt8DxfglLhS)
 
 ## Brain-progression
